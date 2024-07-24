@@ -1,0 +1,19 @@
+name = "my-worker"
+type = "javascript"
+
+[env.dev]
+name = "my-worker-dev"
+account_id = "your-account-id"
+workers_dev = true
+compatibility_dates = ["2024-07-24"]
+
+[env.staging]
+name = "my-worker-staging"
+account_id = "your-account-id"
+workers_dev = true
+compatibility_dates = ["2024-07-24"]
+
+[env.production]
+name = "my-worker-prod"
+account_id = "your-account-id"
+workers_dev = false
